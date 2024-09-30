@@ -1,0 +1,83 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Styling for the container holding the cart */
+div {
+    margin-bottom: 40px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: white;
+}
+
+/* Table heading styling */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Table data rows */
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Alternate row colors */
+tr.tData:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Button styling */
+button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #218838;
+}
+
+/* Heading row specific styling */
+tr.heading {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/* Centering and spacing for table content */
+td, th {
+    text-align: center;
+}
+
